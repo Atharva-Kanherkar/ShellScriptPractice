@@ -5,8 +5,7 @@ sort_numbers() {
   num2=$2
   num3=$3
 
-  # Use the 'sort' command to sort the numbers in ascending order
-  sorted_numbers=$(echo -e "$num1\n$num2\n$num3" | sort -n)
+   sorted_numbers=$(echo -e "$num1\n$num2\n$num3" | sort -n)
 
   echo "Sorted numbers in ascending order: $sorted_numbers"
 }

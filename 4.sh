@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 
 check_range() {
   number=$1
@@ -10,6 +10,7 @@ check_range() {
   fi
 }
 
-# Example usage
-input_number=15
+read a 
+
+input_number=$a
 check_range $input_number
